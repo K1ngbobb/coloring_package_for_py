@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="coloring_package_for_py",
-    version="0.1",
+    name="coloring_py",
+    version="0.5",
     packages=find_packages(),
     author="Kingbob",
     author_email="business5kingbob@gmail.com",
