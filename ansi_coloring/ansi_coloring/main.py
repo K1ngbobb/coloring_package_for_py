@@ -1,9 +1,8 @@
 class Coloring:
-    """ ANSI Color Codes for Text Effects and Colors """
     @staticmethod
     def palette(color):
         colors = {
-            # Standard Colors
+           
             "BLACK": "\033[0;30m",
             "RED": "\033[0;31m",
             "GREEN": "\033[0;32m",
@@ -13,7 +12,7 @@ class Coloring:
             "CYAN": "\033[0;36m",
             "LIGHT_GRAY": "\033[0;37m",
 
-            # Bright Colors
+            
             "DARK_GRAY": "\033[1;30m",
             "LIGHT_RED": "\033[1;31m",
             "LIGHT_GREEN": "\033[1;32m",
@@ -23,7 +22,7 @@ class Coloring:
             "LIGHT_CYAN": "\033[1;36m",
             "WHITE": "\033[1;37m",
 
-            # Exclusive, Extended Colors
+            
             "ORANGE": "\033[38;5;214m",
             "GOLD": "\033[38;5;220m",
             "TEAL": "\033[38;5;30m",
@@ -33,7 +32,7 @@ class Coloring:
             "MAROON": "\033[38;5;88m",
             "OLIVE": "\033[38;5;100m",
 
-            # Text Effects
+            
             "BOLD": "\033[1m",
             "FAINT": "\033[2m",
             "ITALIC": "\033[3m",
@@ -42,10 +41,10 @@ class Coloring:
             "NEGATIVE": "\033[7m",
             "CROSSED": "\033[9m",
 
-            # Reset Color
+    
             "RESET": "\033[0m",
 
-            # Background Colors
+            
             "BLACK_BG": "\033[40m",
             "RED_BG": "\033[41m",
             "GREEN_BG": "\033[42m",
@@ -55,7 +54,7 @@ class Coloring:
             "CYAN_BG": "\033[46m",
             "WHITE_BG": "\033[47m",
 
-            # Bright Background Colors
+           
             "BRIGHT_BLACK_BG": "\033[100m",
             "BRIGHT_RED_BG": "\033[101m",
             "BRIGHT_GREEN_BG": "\033[102m",
