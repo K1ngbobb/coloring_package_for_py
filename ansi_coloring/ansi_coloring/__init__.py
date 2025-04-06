@@ -1,1 +1,1 @@
-from .main import Coloring
+from .coloring_py import Coloring
